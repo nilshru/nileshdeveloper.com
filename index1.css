@@ -1,0 +1,293 @@
+body {
+  height: 100%;
+}
+
+.navbar {
+  position: relative;
+  /* text-align: center; */
+  height: 35px;
+  width: 98%;
+  margin-left: 1%;
+
+  box-shadow: 2px 2px 20px rgb(53, 53, 53);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: transparent;
+  background-color: rgba(140, 127, 187, 0.411);
+  margin-top: 5px;
+}
+.home {
+  font-size: larger;
+  /* background-color: blue; */
+  float: left;
+  /* color: rgb(250, 250, 250); */
+  padding-inline: 10px;
+  margin-left: 50px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  /* border: 10px solid rgb(0, 255, 13); */
+}
+.about {
+  font-size: larger;
+  float: left;
+  /* background-color: rgb(9, 255, 0);      */
+  /* color: rgb(255, 255, 255); */
+  /* border: 10px solid red; */
+  padding-inline: 10px;
+  margin-left: 20px;
+  margin-top: 6px;
+
+  margin-bottom: 10px;
+}
+
+.follow {
+  font-size: larger;
+  float: left;
+  padding-inline: 10px;
+  margin-left: 20px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+.services {
+  font-size: large;
+  margin-top: 7px;
+  float: left;
+  padding-inline: 10px;
+  margin-left: 20px;
+
+  margin-bottom: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.home a:hover {
+  /* background-color: rgb(104, 104, 104); */
+  text-decoration: underline;
+  color: rgb(14, 12, 12) !important;
+  text-underline-offset: 6px;
+}
+.about a:hover {
+  /* background-color: rgb(104, 104, 104); */
+  text-decoration: underline;
+  color: rgb(10, 9, 9) !important;
+  text-underline-offset: 6px;
+}
+.follow a:hover {
+  /* background-color: rgb(104, 104, 104); */
+  text-decoration: underline;
+  color: rgb(0, 0, 0) !important;
+  text-underline-offset: 6px;
+}
+
+.logo {
+  float: left;
+  color: rgb(255, 187, 0);
+  padding-left: 30px;
+  margin-top: -1px;
+  font-size: x-large;
+  font-family: cursive;
+  cursor: not-allowed;
+  font-weight: bolder;
+}
+.services a:hover {
+  /* background-color: rgb(104, 104, 104); */
+  text-decoration: underline;
+  color: rgb(0, 0, 0) !important;
+  text-underline-offset: 6px;
+  word-spacing: 2px;
+}
+.contactus button {
+  font-weight: bolder;
+  height: 27px;
+  width: 120px;
+  border: 0px;
+  float: right;
+  margin-right: 80px;
+  margin-top: 4px;
+  background-color: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.contactus button:hover {
+  color: rgb(255, 255, 255);
+
+  background-color: rgb(255, 187, 0);
+}
+.home a:active {
+  text-decoration: underline;
+  color: rgb(14, 12, 12) !important;
+  text-underline-offset: 6px;
+}
+.container{
+  float: left;
+  color: aliceblue;
+  height: 500px;
+  width: 700px;;
+  /* border: 2px solid white; */
+  margin-top: 50px;
+margin-left: 50px;
+
+
+}
+.discription{
+  /* text-decoration: underline; */
+  font-size: x-large;
+  float: left;
+  text-shadow: 2px 2px 8px #1f0101;
+  margin-top: 50px;
+  color: rgb(255, 187, 0);
+
+
+}
+.para{
+  margin-top: 20px;
+  font-size: large;
+  float: left;
+  text-align: justify;
+  
+}
+.head{
+text-decoration: none;
+color: aqua;
+/* text-underline-offset: 6px; */
+
+}
+.head:hover{
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  color: aquamarine;
+}
+#lbox {
+  color: white;
+  height: 450px;
+  width: 380px;
+  border: 1px solid rgb(252, 252, 252);
+  background-color: rgba(37, 37, 37, 0.459);
+  float: right;
+  margin-top: 50px;
+  margin-right: 150px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px rgba(255, 187, 0, 0.486);
+}
+.navbar:hover {
+  background-color: rgba(140, 127, 187, 0.493);
+}
+li {
+  list-style: none;
+}
+.login-head h2 {
+    font-weight: bolder;
+    font-family: 'Acme', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color:  rgb(255, 187, 0);
+    margin-top: 40px;
+    float: left;
+    margin-left: 146px;
+    cursor: not-allowed;
+}
+.lte {
+    font-size: 10pt;
+    font-family: 'Kalam', cursive;
+  float: left;
+  margin-top: -15px;
+  margin-left: 110px;
+  cursor: not-allowed;
+}
+
+.uid {
+    color: aliceblue;
+   font-size:large;
+    width: 250px;
+    /* transition: 0.5s; */
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 50px;
+  background-color: rgba(0, 153, 255, 0.027);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid rgb(0, 238, 255);
+  outline: none;
+}
+.pass{
+    color: aliceblue;
+   font-size:large;
+    width: 250px;
+    /* transition: 0.5s; */
+  margin-top: 10px;
+  margin-left: 50px;
+  height: 50px;
+  background-color: rgba(0, 153, 255, 0.027);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid rgb(0, 238, 255);
+  outline: none;
+}
+#but1 {
+  font-weight: bolder;
+  color: white;
+  height: 34px;
+  width: 125px;
+  border: 0px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 70px;
+  background-color: rgb(255, 187, 0);
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+#signup {
+  font-weight: bolder;
+  color:  rgb(255, 187, 0);
+  height: 34px;
+  width: 125px;
+  border: 1px solid  rgb(255, 187, 0);
+  float: right;
+  background-color: transparent;
+  margin-right: 40px;
+  margin-top: 70px;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.fpass a {
+  float: left;
+  margin-top: 8px;
+  margin-left: 42px;
+  text-decoration: none;
+  font-size: medium;
+  color: white;
+}
+.fpass a:hover {
+  color: darkorange;
+  text-underline-offset: 6px;
+  
+}
+#but1:hover{
+    border: 1px solid  rgb(255, 187, 0);
+    color:  rgb(255, 187, 0);
+    background-color: transparent;
+    word-spacing: 2px;
+}
+#but1:active{
+    border: 3px solid  aqua;
+    color:  aqua;
+    background-color: transparent;
+}
+#signup:hover{
+    /* border: 1px solid  rgb(255, 187, 0); */
+    color:  white;
+    background-color: rgb(255, 187, 0);
+}
+#signup:active{
+    border: 3px solid  aqua;
+    color:  aqua;
+    background-color: transparent;
+}
+
+
